@@ -1,0 +1,195 @@
+<!DOCTYPE html><html><head>
+  <title>Gabriel Vargas Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Samus Aran&apos;s Portfolio">
+  <meta name="keywords" content="portfolio, projects, skills, software, development">
+  <meta name="author" content="Samus Aran">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style type="text/css">
+  /* START GENERAL STYLES + Styles Less than 600 PX */
+    .portfolioBuilder {
+      color: #333;
+      font-family: Lato, Arial, Helvetica, sans-serif;
+      margin: auto;
+      margin-top: 10px;
+      width: 85%;
+    }
+
+    .portfolioBuilder a {
+      text-decoration: none;
+      color: #333399
+    }
+    .portfolioBuilder a:hover {
+      color: blue;
+    }
+    .portfolioBuilder a:active {
+      color: blue;
+    }
+
+    .portfolioBuilder .centerContent * {
+      text-align: center;
+    }
+    .portfolioBuilder .myName {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .portfolioBuilder .profilePictureDiv {
+      border-radius: 50%;
+      height: 150px;
+      width: 150px;
+      display: block;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+    .portfolioBuilder .profilePictureDiv .profilePicture {
+      height: 100%;
+      max-width: auto;
+    }
+
+    .portfolioBuilder .photoDiv {
+      height: 200px;
+      width: 200px;
+      overflow: hidden;
+      display: block;
+      margin: 0 auto;
+      padding-bottom: 10px;
+    }
+
+    .portfolioBuilder .photoDiv img{
+      height: 100%;
+      width: auto;
+    }
+
+    .portfolioBuilder .pName {
+      font-size: 1.5em;
+      font-weight: bold;
+      display: inline;
+    }
+
+    .portfolioBuilder .pSkill {
+      font-size: 0.75em;
+      text-align: center;
+      color: #5b5b5b;
+      font-weight:bolder;
+      height: 30px;
+      min-width: 30px;
+      background-color: #e8e8e8;
+      padding: 5px;
+      border-radius: 10px;
+      display: inline-flex;
+      justify-content: left;
+      align-items: center;
+      margin: 3px;
+    }
+    /* END GENERAL STYLES + Styles Less than 600 PX */
+    /* START MEDIA QUERY 600-900 PX */
+    @media (min-width: 600px) {
+      .portfolioBuilder {
+        width: 500px;
+      }
+    }
+    /* END MEDIA QUERY 600-900 PX */
+    /* START MEDIA QUERY 900-1200 PX */
+    @media (min-width: 900px) {
+      .portfolioBuilder {
+        width: 800px;
+      }
+      .portfolioBuilder .project {
+        display: flex;
+      }
+      .portfolioBuilder .photoDiv {
+        margin: 10px;
+      }
+      .portfolioBuilder .contentDiv {
+        width: 70%;
+        margin: 10px;
+      }
+    }
+    /* END MEDIA QUERY 900-1200 PX */
+    /* START MEDIA QUERY 1200+ PX */
+    @media (min-width: 1200px) {
+      .portfolioBuilder {
+        width: 1100px;
+      }
+    }
+    /* END MEDIA QUERY 1200+ PX */
+  </style>
+</head>
+<!-- START BODY -->
+<body class="portfolioBuilder">
+  <!-- START INTRO DIV -->
+  <div id="intro" class="centerContent">
+    <div class="profilePictureDiv">
+      <img class="profilePicture" src="/img/avatar.png">
+    </div>
+    <h2 class="myName">Angel Gabriel Vargas Beltran</h2>
+    <div><a href="/">Resume</a></div>
+    <hr>
+  </div>
+  <!-- END INTRO DIV -->
+  <!-- START PROJECTS DIV -->
+  <div id="projects" class="projects">
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="https://urbo.mx">
+      <img class="pPhoto" src="/img/urbo.png" alt="Urbo.mx">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="https://urbo.mx">
+        <div class="pName">Urbo</div>
+      </a><br>
+      <span class="pHours">0</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">March 2015 - March 2019</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        Urbo is a platform that allows people to find and connect with local business, events and offers.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">Laravel</div>
+<div class="pSkill">Amazon Web Services</div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="/">
+      <img class="pPhoto" src="/img/bolsa.png" alt="Bolsa de trabajo delegacion Miguel Hidalgo">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="/">
+        <div class="pName">Bolsa de Trabajo Miguel Hidalgo</div>
+      </a><br>
+      <span class="pHours">--</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">Jun 2017 - Aug 2018</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        A Job Bank for the Miguel Hidalgo Municipality in Mexico City.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">Laravel</div>
+<div class="pSkill">AngularJs</div>
+
+    </div>
+  </div>
+</div>
+<hr></div>
+  <!-- END PROJECTS DIV -->
+  <!-- START END DIV -->
+  <div id="end"></div>
+  <!-- END END DIV -->
+
+
+<footer>
+</footer>
+</body><!-- END BODY --></html>

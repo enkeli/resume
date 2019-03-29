@@ -1,0 +1,196 @@
+{
+    "basics":
+    {
+        "name": "Angel Gabriel Vargas Beltran",
+        "label": "Software Engineer",
+        "summary": "**Web developer with 6+ years industry experience** specializing in backend and system architecture. 28 years old. Linux and command line lover, Vim user. Searching to help your organization to develop a cloud environment (infrastructure, API) implementing latest trends on technology.",
+        "phone": "+527711982546",
+        "email": "resume@nubeso.cloud",
+        "website": "https://enkeli.nubeso.cloud/portfolio.html",
+        "picture": "/img/avatar.png",
+        "location":
+        {
+            "address": "",
+            "postalCode": "42000",
+            "city": "Pachuca de Soto",
+            "countryCode": "MX",
+            "region": "Hidalgo"
+        },
+        "profiles":
+        [
+            {
+                "network": "GitHub",
+                "username": "enkeli",
+                "url": "https://github.com/enkeli",
+                "iconClass": "fa fa-github-square"
+            },
+            {
+                "network": "Gitlab",
+                "username": "enkeliwrt",
+                "url": "https://gitlab.com/enkeliwrt",
+                "iconClass": "fa fa-gitlab-square"
+            }
+        ]
+    },
+    "work":
+    [
+        {
+            "company": "Ouvio",
+            "position": "Lead Developer",
+            "startDate": "2015-03",
+            "summary": "System architect of several third-party full-stack projects. Using industry standard tool's and frameworks like Docker, Laravel, React.js, React Native, Angular, jQuery, etc.",
+            "highlights":
+            [
+                "Focused on project analisys, database modeling and system architecture",
+                "Main role as a developer consisted in backend and API's development",
+                "Managed a small development team",
+                "Integrated use of collaborative tools such as JIRA, Nextcloud and Slack",
+                "Explored alternative areas such as mobile apps and game development using React Native"
+            ]
+        },
+        {
+            "company": "Urbo",
+            "position": "Backend Engineer",
+            "startDate": "2015-03",
+            "website": "https://urbo.mx",
+            "summary": "System architect, API development and Cloud deployment of a local service to allow people to discover their city.",
+            "highlights":
+            [
+                "RESTful API design",
+                "Worked with a separate mobile app dev team, with a defined api interface contract",
+                "Intense use of Laravel framework and third party services"
+            ]
+        },
+        {
+            "company": "Reawaken, Mexico City",
+            "position": "Web Developer",
+            "startDate": "2014-05",
+            "endDate": "2014-11",
+            "summary": "Develop and maintain an enterprise accounting system.",
+            "highlights":
+            [
+                "Migrated a Codeigniter system into Laravel"
+            ]
+        },
+        {
+            "company": "Inspire Marketplace LLC, New York",
+            "position": "Web Developer",
+            "startDate": "2013-06",
+            "endDate": "2014-05",
+            "summary": "Analysis, design, develop and maintain of a custom online CRM - Web Store",
+            "highlights":
+            [
+                "Stripe payments"
+            ]
+        },
+        {
+            "company": "Universidad Autonoma del Estado de Hidalgo",
+            "position": "Web Developer",
+            "startDate": "2013-01",
+            "endDate": "2013-06",
+            "summary": "Development of the online project’s inscription and evaluation for the “Expoinnova Universitaria 2013” Expo"
+        }
+    ],
+    "education":
+    [
+        {
+            "institution": "Universidad Autonoma del Estado de Hidalgo",
+            "area": "Software Engineer",
+            "startDate": "2009-07",
+            "endDate": "2013-12",
+            "studyType": "University"
+        }
+    ],
+    "skills":
+    [
+        {
+            "name": "Analysis",
+            "keywords":
+            [
+                "UML",
+                "Requirements gathering",
+                "API design",
+                "Database Modeling"
+            ]
+        },
+        {
+            "name": "Development",
+            "keywords":
+            [
+                "Laravel",
+                "React",
+                "AngularJS",
+                "jQuery",
+                "Git",
+                "Postman",
+                "Yarn",
+                "Composer",
+                "JIRA"
+            ]
+        },
+        {
+            "name": "Operation",
+            "keywords":
+            [
+                "Docker",
+                "Linux",
+                "Ubuntu",
+                "CentOS",
+                "MySQL",
+                "Cloudflare",
+                "AWS",
+                "Google Cloud",
+                "Kubernetes"
+            ]
+        },
+        {
+            "name": "Languages",
+            "keywords":
+            [
+                "PHP",
+                "Javascript",
+                "Bash",
+                "SQL",
+                "JAVA",
+                "Python"
+            ]
+        }
+    ],
+    "interests":
+    [
+        {
+            "name": "Science",
+            "keywords":
+            [
+                "Astronomy",
+                "Physics",
+                "Biology"
+            ]
+        },
+        {
+            "name": "Learning languages",
+            "keywords":
+            [
+                "Finnish",
+                "Interlingua (IALA)",
+                "French",
+                "German"
+            ]
+        }
+    ],
+    "languages":
+    [
+        {
+            "language": "Spanish",
+            "fluency": "Native"
+        },
+        {
+            "language": "English",
+            "fluency": "Advanced"
+        },
+        {
+            "language": "Esperanto",
+            "fluency": "Beginner"
+        }
+    ]
+}
