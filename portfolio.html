@@ -1,10 +1,12 @@
 <!DOCTYPE html><html><head>
   <title>Gabriel Vargas Portfolio</title>
   <meta charset="UTF-8">
-  <meta name="description" content="Samus Aran&apos;s Portfolio">
+  <meta name="description" content="Gabriel Vargas&apos;s Portfolio">
   <meta name="keywords" content="portfolio, projects, skills, software, development">
-  <meta name="author" content="Samus Aran">
+  <meta name="author" content="Gabriel Vargas">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
   <style type="text/css">
   /* START GENERAL STYLES + Styles Less than 600 PX */
     .portfolioBuilder {
@@ -24,6 +26,17 @@
     }
     .portfolioBuilder a:active {
       color: blue;
+    }
+
+    .portfolioBuilder .links > a {
+      margin: 10px;
+      background: #ddd;
+      padding: 5px;
+      color: #000;
+      border-radius: 5px;
+    }
+    .portfolioBuilder .links > a > i {
+      color: #0030ff;
     }
 
     .portfolioBuilder .centerContent * {
@@ -112,6 +125,27 @@
       .portfolioBuilder {
         width: 1100px;
       }
+      .portfolioBuilder .project {
+        display: flex;
+        width: 49%;
+        float: left;
+        border: 1px solid #eee;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        min-height: 300px;
+        border-radius: 5px;
+        box-shadow: 3px 3px 5px #ddd;
+      }
+      hr {
+        display: none;
+      }
+      .centerContent {
+
+        margin-bottom: 30px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 10px;
+
+      }
     }
     /* END MEDIA QUERY 1200+ PX */
   </style>
@@ -124,7 +158,10 @@
       <img class="profilePicture" src="/img/avatar.png">
     </div>
     <h2 class="myName">Angel Gabriel Vargas Beltran</h2>
-    <div><a href="/">Resume</a></div>
+    <div class="links">
+        <a href="/resume.html"><i class="fas fa-suitcase"></i> Resume</a>
+        <a href="https://github.com/enkeli"><i class="fab fa-github"></i> Github</a>
+    </div>
     <hr>
   </div>
   <!-- END INTRO DIV -->
@@ -152,6 +189,89 @@
     <div class="projectSkills">
       <div class="pSkill">Laravel</div>
 <div class="pSkill">Amazon Web Services</div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="/">
+      <img class="pPhoto" src="/img/crminmo.png" alt="Real State CRM properties mapping">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="/">
+        <div class="pName">Real State CRM</div>
+      </a><br>
+      <span class="pHours">0</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">2017 - 2018</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        A custom made real state CRM with properties mapping to a image diagram, prospects management, multi-tenant real state developments, sellers management, etc.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">Laravel</div>
+<div class="pSkill">AngularJs</div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="/">
+      <img class="pPhoto" src="/img/elam.png" alt="ELAM Login Page">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="/">
+        <div class="pName">Custom CRM: ELAM</div>
+      </a><br>
+      <span class="pHours">0</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">2018</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        A custom CRM for a truck assembler company. Modules included international logistics, storage, sells, assembly line production, accountability and customer service.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">Laravel</div>
+<div class="pSkill">Docker</div>
+<div class="pSkill">ReactJs</div>
+
+    </div>
+  </div>
+</div>
+<hr>
+<div class="project">
+  <div class="photoDiv">
+    <a class="pLink" href="/">
+      <img class="pPhoto" src="/img/sleepyland.png" alt="SleepyLand logo">
+    </a>
+  </div>
+  <div class="contentDiv">
+    <div class="projectHeader">
+      <a class="pLink" href="/">
+        <div class="pName">SleepyLand</div>
+      </a><br>
+      <span class="pHours">0</span>&#xA0;hours,&#xA0;
+      <span class="pTimeframe">2016</span>
+    </div>
+    <div class="projectBody">
+      <p class="pDescription">
+        SleepyLand was a mobile app which introduced memorable and fun characters to kids, and let them call their favourite one via a &apos;call center&apos; like service directly from the app.
+      </p>
+    </div>
+    <div class="projectSkills">
+      <div class="pSkill">React Native</div>
+<div class="pSkill">Web RTC</div>
+<div class="pSkill">Android Development</div>
 
     </div>
   </div>

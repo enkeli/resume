@@ -13,6 +13,47 @@
         ]
     },
     {
+        "name": "Real State CRM",
+        "hours": 0,
+        "link": "/",
+        "timeframe": "2017 - 2018",
+        "description": "A custom made real state CRM with properties mapping to a image diagram, prospects management, multi-tenant real state developments, sellers management, etc.",
+        "imgSrc": "/img/crminmo.png",
+        "imgAlt": "Real State CRM properties mapping",
+        "skills": [
+            "Laravel",
+            "AngularJs"
+        ]
+    },
+    {
+        "name": "Custom CRM: ELAM",
+        "hours": 0,
+        "link": "/",
+        "timeframe": "2018",
+        "description": "A custom CRM for a truck assembler company. Modules included international logistics, storage, sells, assembly line production, accountability and customer service.",
+        "imgSrc": "/img/elam.png",
+        "imgAlt": "ELAM Login Page",
+        "skills": [
+            "Laravel",
+            "Docker",
+            "ReactJs"
+        ]
+    },
+    {
+        "name": "SleepyLand",
+        "hours": 0,
+        "link": "/",
+        "timeframe": "2016",
+        "description": "SleepyLand was a mobile app which introduced memorable and fun characters to kids, and let them call their favourite one via a 'call center' like service directly from the app.",
+        "imgSrc": "/img/sleepyland.png",
+        "imgAlt": "SleepyLand logo",
+        "skills": [
+            "React Native",
+            "Web RTC",
+            "Android Development"
+        ]
+    },
+    {
         "name": "Bolsa de Trabajo Miguel Hidalgo",
         "hours": "--",
         "link": "/",
