@@ -13,6 +13,35 @@
         ]
     },
     {
+        "name": "ZnapMonitor",
+        "hours": 0,
+        "link": "/",
+        "timeframe": "2015",
+        "description": "A platform designed to track a topic in social media (twitter, facebook) and your organization users impact on that topic.",
+        "imgSrc": "/img/znapmonitor.png",
+        "imgAlt": "ZnapMonitor topic dashboard",
+        "skills": [
+            "Laravel",
+            "RESTful API",
+            "AngularJs"
+        ]
+    },
+    {
+        "name": "Inspire Marketplace CRM",
+        "hours": 0,
+        "link": "/",
+        "timeframe": "2013",
+        "description": "Online store - custom CRM with booking capabilities, client management and multiple stores domain",
+        "imgSrc": "/img/inspire.jpg",
+        "imgAlt": "Inspire marketplace's index page",
+        "skills": [
+            "Elgg",
+            "Amazon Web Services",
+            "Stripe payments",
+            "Javascript"
+        ]
+    },
+    {
         "name": "Real State CRM",
         "hours": 0,
         "link": "/",
@@ -20,6 +49,19 @@
         "description": "A custom made real state CRM with properties mapping to a image diagram, prospects management, multi-tenant real state developments, sellers management, etc.",
         "imgSrc": "/img/crminmo.png",
         "imgAlt": "Real State CRM properties mapping",
+        "skills": [
+            "Laravel",
+            "AngularJs"
+        ]
+    },
+    {
+        "name": "Georeferencing platform of crime profiles",
+        "hours": 0,
+        "link": "/",
+        "timeframe": "2016",
+        "description": "A project for the local justice bureau, that aimed to help in the representation of the crime records in the Pachuca metropolitan area.",
+        "imgSrc": "/img/ipij.png",
+        "imgAlt": "Platform dashboard",
         "skills": [
             "Laravel",
             "AngularJs"
@@ -54,7 +96,20 @@
         ]
     },
     {
-        "name": "Bolsa de Trabajo Miguel Hidalgo",
+        "name": "Euphorye",
+        "hours": 0,
+        "link": "/",
+        "timeframe": "2014",
+        "description": "Euphorye is an accountant software designed to comply with the Mexican laws, it made the managing of invoices simple, yet flexible enoguh to adapt to any organization.",
+        "imgSrc": "/img/euphorye.png",
+        "imgAlt": "Euphorye logo",
+        "skills": [
+            "jQuery",
+            "Codeigniter"
+        ]
+    },
+    {
+        "name": "Custom Job Bank platform",
         "hours": "--",
         "link": "/",
         "timeframe": "Jun 2017 - Aug 2018",
