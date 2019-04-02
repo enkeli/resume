@@ -42,11 +42,11 @@
         ]
     },
     {
-        "name": "Real State CRM",
+        "name": "Real Estate CRM",
         "hours": 0,
         "link": "/",
         "timeframe": "2017 - 2018",
-        "description": "A custom made real state CRM with properties mapping to a image diagram, prospects management, multi-tenant real state developments, sellers management, etc.",
+        "description": "A custom made real estate CRM with properties mapping to a image diagram, prospects management, multi-tenant real state developments, sellers management, etc.",
         "imgSrc": "/img/crminmo.png",
         "imgAlt": "Real State CRM properties mapping",
         "skills": [
